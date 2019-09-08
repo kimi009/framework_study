@@ -1,0 +1,41 @@
+{
+  "name": "hooks_nodejs_ts_webpack_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo 11",
+    "client:server": "scripty",
+    "client:dev": "scripty",
+    "client:prod": "scripty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mobx": "^5.13.0",
+    "mobx-react-lite": "^1.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-hooks-fetch": "^0.10.0",
+    "react-router-dom": "^5.0.1",
+    "scripty": "^1.9.1",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "json2ts": "^0.0.7",
+    "typescript": "^3.6.2",
+    "webpack-build-notifier": "^1.1.1",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2",
+    "yargs-parser": "^14.0.0"
+  }
+}
