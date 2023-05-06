@@ -36,6 +36,6 @@
     "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.0",
     "webpack-merge": "^4.2.2",
-    "yargs-parser": "^14.0.0"
+    "yargs-parser": "^15.0.1"
   }
 }
